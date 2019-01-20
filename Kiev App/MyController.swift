@@ -6,50 +6,25 @@
 //  Copyright © 2019 kacio henrique couto batista. All rights reserved.
 //
 import UIKit
-class MyController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class MyController: UIViewController {
     
-    // Data model: These strings will be the data for the table view cells
-    let animals: [String] = ["Horse", "Cow", "Camel", "Sheep", "Goat"]
+    @IBOutlet weak var segmentedController: UISegmentedControl!
     
-    // cell reuse id (cells that scroll out of view can be reused)
-    let cellReuseIdentifier = "cell"
+    @IBOutlet weak var containerViewA: UIView!
+    @IBOutlet weak var containerViewB: UIView!
     
-    // don't forget to hook this up from the storyboard
-    @IBOutlet var tableView: UITableView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Register the table view cell class and its reuse id
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
-        
-        // (optional) include this line if you want to remove the extra empty cell divider lines
-        // self.tableView.tableFooterView = UIView()
-        
-        // This view controller itself will provide the delegate methods and row data for the table view.
-        tableView.delegate = self
-        tableView.dataSource = self
+    @IBAction func showComponent(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 1 {
+            UIView.animate(withDuration: 0.5, animations: {
+                self.containerViewA.alpha = 1
+                self.containerViewB.alpha = 0
+            })
+        } else {
+            UIView.animate(withDuration: 0.5, animations: {
+                self.containerViewA.alpha = 0
+                self.containerViewB.alpha = 1
+            })
+        }
     }
     
-    // number of rows in table view
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.animals.count
-    }
-    
-    // create a cell for each table view row
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        // create a new cell if needed or reuse an old one
-        let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as UITableViewCell!
-        
-        // set the text from the data model
-        cell.textLabel?.text = self.animals[indexPath.row]
-        
-        return cell
-    }
-    
-    // method to run when table view cell is tapped
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("You tapped cell number \(indexPath.row).")
-    }
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7E2DCF21F4F9B500A02651 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DCE21F4F9B500A02651 /* PlaceTableViewCell.swift */; };
+		2B7E2DD221F500A100A02651 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E2DD021F500A000A02651 /* Detail.storyboard */; };
+		2B7E2DD421F5014A00A02651 /* PlaceTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DD321F5014A00A02651 /* PlaceTableViewDelegate.swift */; };
+		2B7E2DD621F5018A00A02651 /* PlaceTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DD521F5018A00A02651 /* PlaceTableViewDataSource.swift */; };
+		2B7E2DD821F503F500A02651 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DD721F503F400A02651 /* MapViewController.swift */; };
+		2B7E2DDA21F5041800A02651 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E2DD921F5041800A02651 /* ListViewController.swift */; };
 		62A889BB21F4C4BF00ECD922 /* geojson in Resources */ = {isa = PBXBuildFile; fileRef = 62A889BA21F4C4BF00ECD922 /* geojson */; };
 		62A889BD21F4DABE00ECD922 /* screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A889BC21F4DABE00ECD922 /* screen.swift */; };
 		62A889C121F4DDAA00ECD922 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A889C021F4DDAA00ECD922 /* MyController.swift */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B7E2DCE21F4F9B500A02651 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		2B7E2DD121F500A100A02651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Kiev App/Base.lproj/Detail.storyboard"; sourceTree = "<group>"; };
+		2B7E2DD321F5014A00A02651 /* PlaceTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewDelegate.swift; sourceTree = "<group>"; };
+		2B7E2DD521F5018A00A02651 /* PlaceTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewDataSource.swift; sourceTree = "<group>"; };
+		2B7E2DD721F503F400A02651 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2B7E2DD921F5041800A02651 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		62A889BA21F4C4BF00ECD922 /* geojson */ = {isa = PBXFileReference; lastKnownFileType = folder; path = geojson; sourceTree = "<group>"; };
 		62A889BC21F4DABE00ECD922 /* screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen.swift; sourceTree = "<group>"; };
 		62A889C021F4DDAA00ECD922 /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
@@ -87,6 +99,7 @@
 		62BD279021F3D18D003085C8 = {
 			isa = PBXGroup;
 			children = (
+				2B7E2DD021F500A000A02651 /* Detail.storyboard */,
 				62BD279B21F3D18D003085C8 /* Kiev App */,
 				62BD27B021F3D18F003085C8 /* Kiev AppTests */,
 				62BD27BB21F3D18F003085C8 /* Kiev AppUITests */,
@@ -118,6 +131,11 @@
 				62A889BA21F4C4BF00ECD922 /* geojson */,
 				62A889BC21F4DABE00ECD922 /* screen.swift */,
 				62A889C021F4DDAA00ECD922 /* MyController.swift */,
+				2B7E2DCE21F4F9B500A02651 /* PlaceTableViewCell.swift */,
+				2B7E2DD321F5014A00A02651 /* PlaceTableViewDelegate.swift */,
+				2B7E2DD521F5018A00A02651 /* PlaceTableViewDataSource.swift */,
+				2B7E2DD721F503F400A02651 /* MapViewController.swift */,
+				2B7E2DD921F5041800A02651 /* ListViewController.swift */,
 			);
 			path = "Kiev App";
 			sourceTree = "<group>";
@@ -247,6 +265,7 @@
 				62A889BB21F4C4BF00ECD922 /* geojson in Resources */,
 				62BD27A721F3D18E003085C8 /* LaunchScreen.storyboard in Resources */,
 				62BD27A421F3D18E003085C8 /* Assets.xcassets in Resources */,
+				2B7E2DD221F500A100A02651 /* Detail.storyboard in Resources */,
 				62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7E2DD621F5018A00A02651 /* PlaceTableViewDataSource.swift in Sources */,
 				62A889C121F4DDAA00ECD922 /* MyController.swift in Sources */,
 				62BD27CB21F49AA6003085C8 /* Artworck.swift in Sources */,
+				2B7E2DD821F503F500A02651 /* MapViewController.swift in Sources */,
+				2B7E2DD421F5014A00A02651 /* PlaceTableViewDelegate.swift in Sources */,
+				2B7E2DDA21F5041800A02651 /* ListViewController.swift in Sources */,
 				62A889BD21F4DABE00ECD922 /* screen.swift in Sources */,
+				2B7E2DCF21F4F9B500A02651 /* PlaceTableViewCell.swift in Sources */,
 				62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */,
 				62BD27CF21F4B508003085C8 /* typePoint.swift in Sources */,
 				62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */,
@@ -313,6 +337,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2B7E2DD021F500A000A02651 /* Detail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7E2DD121F500A100A02651 /* Base */,
+			);
+			name = Detail.storyboard;
+			sourceTree = "<group>";
+		};
 		62BD27A021F3D18D003085C8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
