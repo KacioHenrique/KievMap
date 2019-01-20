@@ -15,13 +15,13 @@ struct Collection : Decodable {
 
 struct Feature : Decodable {
     let type : String
-    //let properties : Properties
+    let properties : Properties
     let geometry: Geometry
     // there is also geometry
 }
 
 struct Properties : Decodable {
-   
+    let name:String
 }
 struct Geometry : Decodable {
     let type:String

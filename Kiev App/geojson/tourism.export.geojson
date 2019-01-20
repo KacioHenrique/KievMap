@@ -1,0 +1,814 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-01-20T14:45:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41501566",
+        "landuse": "cemetery",
+        "name": "Historical Cemetery",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1529523,
+              -34.1805177
+            ],
+            [
+              22.1527356,
+              -34.1815333
+            ],
+            [
+              22.1545375,
+              -34.1818002
+            ],
+            [
+              22.1547486,
+              -34.1808454
+            ],
+            [
+              22.1543462,
+              -34.1807132
+            ],
+            [
+              22.1529523,
+              -34.1805177
+            ]
+          ]
+        ]
+      },
+      "id": "way/41501566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208481371",
+        "addr:city": "Mossel Bay",
+        "addr:country": "ZA",
+        "addr:housenumber": "1",
+        "addr:postcode": "6500",
+        "addr:street": "Market Street",
+        "building": "yes",
+        "name": "Dias Museum",
+        "opening_hours": "Mo-Fr 09:00-16:45; Sa-Su 09:00-15:45",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1423153,
+              -34.180328
+            ],
+            [
+              22.142264,
+              -34.1803316
+            ],
+            [
+              22.1417947,
+              -34.1803651
+            ],
+            [
+              22.1418035,
+              -34.180449
+            ],
+            [
+              22.1423241,
+              -34.1804119
+            ],
+            [
+              22.1423153,
+              -34.180328
+            ]
+          ]
+        ]
+      },
+      "id": "way/208481371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/226830606",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.129394,
+              -34.1730146
+            ],
+            [
+              22.1302133,
+              -34.1730459
+            ],
+            [
+              22.1302133,
+              -34.1731746
+            ],
+            [
+              22.1309188,
+              -34.1732374
+            ],
+            [
+              22.1318861,
+              -34.1734225
+            ],
+            [
+              22.1332744,
+              -34.1738211
+            ],
+            [
+              22.1337448,
+              -34.1740094
+            ],
+            [
+              22.1340976,
+              -34.1743044
+            ],
+            [
+              22.1342948,
+              -34.1745806
+            ],
+            [
+              22.1344958,
+              -34.174885
+            ],
+            [
+              22.1346703,
+              -34.1753431
+            ],
+            [
+              22.1350421,
+              -34.1764917
+            ],
+            [
+              22.1353835,
+              -34.1769342
+            ],
+            [
+              22.1360245,
+              -34.1766643
+            ],
+            [
+              22.1357817,
+              -34.1762815
+            ],
+            [
+              22.1359638,
+              -34.1761936
+            ],
+            [
+              22.1360093,
+              -34.1761089
+            ],
+            [
+              22.1360169,
+              -34.1760398
+            ],
+            [
+              22.135778,
+              -34.1754185
+            ],
+            [
+              22.1355466,
+              -34.1749885
+            ],
+            [
+              22.135391,
+              -34.1746967
+            ],
+            [
+              22.1352583,
+              -34.1745617
+            ],
+            [
+              22.1350459,
+              -34.1744205
+            ],
+            [
+              22.1347234,
+              -34.1742228
+            ],
+            [
+              22.1343972,
+              -34.1740596
+            ],
+            [
+              22.1339762,
+              -34.1738588
+            ],
+            [
+              22.1337372,
+              -34.1736987
+            ],
+            [
+              22.1333882,
+              -34.1734319
+            ],
+            [
+              22.1331455,
+              -34.1731401
+            ],
+            [
+              22.1329406,
+              -34.172889
+            ],
+            [
+              22.1327661,
+              -34.1727886
+            ],
+            [
+              22.1325044,
+              -34.1727352
+            ],
+            [
+              22.1320606,
+              -34.1727133
+            ],
+            [
+              22.1318785,
+              -34.172707
+            ],
+            [
+              22.1317382,
+              -34.1726882
+            ],
+            [
+              22.1315637,
+              -34.1726756
+            ],
+            [
+              22.1312375,
+              -34.1726788
+            ],
+            [
+              22.1309871,
+              -34.1726568
+            ],
+            [
+              22.1307406,
+              -34.172594
+            ],
+            [
+              22.1305585,
+              -34.1725093
+            ],
+            [
+              22.1303954,
+              -34.1723869
+            ],
+            [
+              22.1302968,
+              -34.1723586
+            ],
+            [
+              22.1301678,
+              -34.1723618
+            ],
+            [
+              22.1300312,
+              -34.1724308
+            ],
+            [
+              22.1299402,
+              -34.1724842
+            ],
+            [
+              22.1298378,
+              -34.1725595
+            ],
+            [
+              22.1297316,
+              -34.1726129
+            ],
+            [
+              22.1296291,
+              -34.1726568
+            ],
+            [
+              22.1295191,
+              -34.1726662
+            ],
+            [
+              22.1294091,
+              -34.1727164
+            ],
+            [
+              22.129394,
+              -34.1730146
+            ]
+          ]
+        ]
+      },
+      "id": "way/226830606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/243143054",
+        "name": "Point Caravan Park",
+        "tourism": "caravan_site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1547631,
+              -34.1835426
+            ],
+            [
+              22.1559379,
+              -34.1838448
+            ],
+            [
+              22.1572707,
+              -34.1845144
+            ],
+            [
+              22.1569746,
+              -34.1848901
+            ],
+            [
+              22.1575176,
+              -34.1851923
+            ],
+            [
+              22.1579125,
+              -34.1852821
+            ],
+            [
+              22.1584258,
+              -34.1849065
+            ],
+            [
+              22.1582876,
+              -34.1847595
+            ],
+            [
+              22.1585739,
+              -34.1845716
+            ],
+            [
+              22.1576163,
+              -34.1837304
+            ],
+            [
+              22.1569844,
+              -34.1832567
+            ],
+            [
+              22.1563328,
+              -34.1833956
+            ],
+            [
+              22.1562539,
+              -34.1830526
+            ],
+            [
+              22.155395,
+              -34.1831179
+            ],
+            [
+              22.1547631,
+              -34.1835426
+            ]
+          ]
+        ]
+      },
+      "id": "way/243143054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253536933",
+        "addr:city": "Mossel Bay",
+        "addr:housenumber": "1",
+        "addr:postcode": "6506",
+        "addr:street": "George Road",
+        "building": "yes",
+        "email": "beds@santosexpress.co.za",
+        "name": "Santos Express Backpackers",
+        "phone": "+27 83 900 7797",
+        "tourism": "hostel",
+        "website": "http://www.santosexpress.co.za/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1378426,
+              -34.1787037
+            ],
+            [
+              22.1387508,
+              -34.1792264
+            ],
+            [
+              22.1387722,
+              -34.1791945
+            ],
+            [
+              22.1378681,
+              -34.1786739
+            ],
+            [
+              22.1378426,
+              -34.1787037
+            ]
+          ]
+        ]
+      },
+      "id": "way/253536933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360066285",
+        "name": "Shells and Fish",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1412415,
+              -34.1805983
+            ],
+            [
+              22.1412079,
+              -34.1806899
+            ],
+            [
+              22.1412646,
+              -34.1807773
+            ],
+            [
+              22.1413478,
+              -34.180774
+            ],
+            [
+              22.141376,
+              -34.1807945
+            ],
+            [
+              22.1415214,
+              -34.1807268
+            ],
+            [
+              22.1414246,
+              -34.1805947
+            ],
+            [
+              22.1412415,
+              -34.1805983
+            ]
+          ]
+        ]
+      },
+      "id": "way/360066285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/509048390",
+        "addr:city": "Mossel Bay",
+        "addr:street": "Market Street",
+        "information": "office",
+        "name": "Mossel Bay Tourism Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1431985,
+          -34.18007
+        ]
+      },
+      "id": "node/509048390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522478710",
+        "addr:city": "Mossel Bay",
+        "addr:street": "Church Street",
+        "name": "Protea Hotel Mossel Bay",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1428703,
+          -34.1799317
+        ]
+      },
+      "id": "node/522478710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2323211557",
+        "name": "Mossel Bay Backpackers",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.153821,
+          -34.1827762
+        ]
+      },
+      "id": "node/2323211557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2435850816",
+        "name": "The Shark Lab",
+        "tourism": "aquarium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1590707,
+          -34.186043
+        ]
+      },
+      "id": "node/2435850816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2435850824",
+        "name": "Point Hotel",
+        "operator": "private",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1583525,
+          -34.1857742
+        ]
+      },
+      "id": "node/2435850824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2500800305",
+        "addr:city": "Mossel Bay",
+        "addr:housename": "Brians",
+        "addr:housenumber": "3",
+        "addr:street": "16th Avenue",
+        "name": "Brians B & B",
+        "phone": "+27 72 726 4110",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1348344,
+          -34.1826648
+        ]
+      },
+      "id": "node/2500800305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2500800306",
+        "addr:city": "Mossel Bay",
+        "addr:street": "17th Avenue",
+        "name": "Golf Inn",
+        "phone": "+27 44 691 1648",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1345727,
+          -34.1842744
+        ]
+      },
+      "id": "node/2500800306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2694265433",
+        "name": "Post Tree",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.141288,
+          -34.1803616
+        ]
+      },
+      "id": "node/2694265433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2694265434",
+        "name": "Diaz Museum",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1418124,
+          -34.179958
+        ]
+      },
+      "id": "node/2694265434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810870419",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.151658,
+          -34.1796662
+        ]
+      },
+      "id": "node/2810870419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810870441",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1529179,
+          -34.1798283
+        ]
+      },
+      "id": "node/2810870441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810871032",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1575423,
+          -34.1861691
+        ]
+      },
+      "id": "node/2810871032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810871033",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1599793,
+          -34.184926
+        ]
+      },
+      "id": "node/2810871033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2831009064",
+        "name": "Point Caravan Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1562111,
+          -34.18375
+        ]
+      },
+      "id": "node/2831009064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3043831932",
+        "addr:city": "Mossel Bay",
+        "addr:housenumber": "113",
+        "addr:postcode": "6500",
+        "addr:street": "Marsh Street",
+        "email": "aquamarine.gh@gmail.com",
+        "fax": "+27 86 603 7078",
+        "internet_access": "wlan",
+        "name": "Aquamarine Guest House",
+        "phone": "+27 76 882 0003",
+        "smoking": "no",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "http://www.aquamarineguesthouse.co.za/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1376953,
+          -34.1820509
+        ]
+      },
+      "id": "node/3043831932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3646674084",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1420274,
+          -34.1802322
+        ]
+      },
+      "id": "node/3646674084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607624396",
+        "name": "Munro Manor Guest House",
+        "name:en": "Munro Manor Guest House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1385348,
+          -34.1805007
+        ]
+      },
+      "id": "node/4607624396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5044209016",
+        "name": "Edward Charles",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1380413,
+          -34.1814665
+        ]
+      },
+      "id": "node/5044209016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175138022",
+        "addr:housenumber": "7",
+        "addr:street": "Church Street",
+        "name": "White Shark Africa",
+        "phone": "+27 446913796",
+        "tourism": "attraction",
+        "website": "http://www.whitesharkafrica.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.143075,
+          -34.1805195
+        ]
+      },
+      "id": "node/5175138022"
+    }
+  ]
+}

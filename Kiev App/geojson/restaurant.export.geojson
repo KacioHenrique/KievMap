@@ -1,0 +1,451 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-01-20T14:43:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95242801",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Santos Express"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1374398,
+              -34.1784675
+            ],
+            [
+              22.1378426,
+              -34.1787037
+            ],
+            [
+              22.1378681,
+              -34.1786739
+            ],
+            [
+              22.1379272,
+              -34.1786049
+            ],
+            [
+              22.1376592,
+              -34.1784477
+            ],
+            [
+              22.137633,
+              -34.1784784
+            ],
+            [
+              22.1374982,
+              -34.1783994
+            ],
+            [
+              22.1374398,
+              -34.1784675
+            ]
+          ]
+        ]
+      },
+      "id": "way/95242801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95242826",
+        "amenity": "restaurant",
+        "building": "retail",
+        "cuisine": "regional",
+        "name": "The Sea Gypsey"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.14347,
+              -34.1777556
+            ],
+            [
+              22.1435668,
+              -34.177829
+            ],
+            [
+              22.1436034,
+              -34.177796
+            ],
+            [
+              22.1436121,
+              -34.1778032
+            ],
+            [
+              22.1436229,
+              -34.1778063
+            ],
+            [
+              22.1436328,
+              -34.1777999
+            ],
+            [
+              22.143635,
+              -34.1777905
+            ],
+            [
+              22.1436292,
+              -34.1777825
+            ],
+            [
+              22.1436209,
+              -34.1777766
+            ],
+            [
+              22.1436509,
+              -34.1777495
+            ],
+            [
+              22.1436599,
+              -34.1777414
+            ],
+            [
+              22.1435652,
+              -34.1776697
+            ],
+            [
+              22.14347,
+              -34.1777556
+            ]
+          ]
+        ]
+      },
+      "id": "way/95242826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667528390",
+        "amenity": "restaurant",
+        "name": "Delfino's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1573979,
+          -34.1829101
+        ]
+      },
+      "id": "node/667528390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1085294654",
+        "addr:city": "Mossel Bay",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "name": "Gannet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1424209,
+          -34.1799623
+        ]
+      },
+      "id": "node/1085294654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1356333101",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Kingfisher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1572437,
+          -34.1829178
+        ]
+      },
+      "id": "node/1356333101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1475055753",
+        "amenity": "restaurant",
+        "name": "STARS",
+        "source": "GPS",
+        "wifi": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1331423,
+          -34.1815821
+        ]
+      },
+      "id": "node/1475055753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1475056579",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Ocean Basket",
+        "source": "GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.132774,
+          -34.1806461
+        ]
+      },
+      "id": "node/1475056579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412310033",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Wimpy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.143269,
+          -34.180704
+        ]
+      },
+      "id": "node/2412310033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2435850817",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Bigblu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1589012,
+          -34.1859691
+        ]
+      },
+      "id": "node/2435850817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2505743438",
+        "addr:housenumber": "12",
+        "addr:street": "Marsh Street",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "email": "anzelle@route57.co.za",
+        "name": "Route 57",
+        "opening_hours": "Tu-Su 16:00-22:00",
+        "phone": "+27 446910057",
+        "website": "http://www.route57.co.za"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1531638,
+          -34.1832077
+        ]
+      },
+      "id": "node/2505743438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2505743439",
+        "amenity": "restaurant",
+        "name": "Trawlers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1523338,
+          -34.1831356
+        ]
+      },
+      "id": "node/2505743439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2505743440",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1521469,
+          -34.1828402
+        ]
+      },
+      "id": "node/2505743440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2509686183",
+        "amenity": "restaurant",
+        "name": "KAAI 4",
+        "phone": "+27 79 980 3981"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1420109,
+          -34.1787416
+        ]
+      },
+      "id": "node/2509686183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2547315636",
+        "addr:city": "Mossel bay",
+        "addr:street": "Marsh Street",
+        "amenity": "restaurant",
+        "capacity": "25",
+        "cuisine": "regional",
+        "name": "Klip Huis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1508086,
+          -34.1827914
+        ]
+      },
+      "id": "node/2547315636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2547315645",
+        "addr:city": "Mossel bay",
+        "addr:housenumber": "31",
+        "addr:street": "Marsh Street",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "regional",
+        "name": "Fynbos",
+        "phone": "+27 44 691 1366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1502563,
+          -34.1827279
+        ]
+      },
+      "id": "node/2547315645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2694265432",
+        "amenity": "restaurant",
+        "name": "Sea Gypsy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1436509,
+          -34.1777495
+        ]
+      },
+      "id": "node/2694265432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2694265435",
+        "amenity": "restaurant",
+        "name": "Pavillion",
+        "note": "http://www.tripadvisor.co.za/Restaurant_Review-g317080-d3267498-Reviews-Pavilion_Restaurant-Mossel_Bay_Western_Cape.html",
+        "phone": "+27 44 690 4567",
+        "website": "http://www.pavilionrestaurant.co.za/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1362156,
+          -34.1766372
+        ]
+      },
+      "id": "node/2694265435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424933200",
+        "amenity": "restaurant",
+        "name": "carola ann's",
+        "name:en": "carola ann's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1429072,
+          -34.1810943
+        ]
+      },
+      "id": "node/4424933200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4579212493",
+        "amenity": "restaurant",
+        "description": "Seafood, pub, grill",
+        "name": "La Peron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1450538,
+          -34.1796327
+        ]
+      },
+      "id": "node/4579212493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6080136785",
+        "addr:housenumber": "23",
+        "addr:postcode": "6500",
+        "addr:street": "Bland Street",
+        "amenity": "restaurant",
+        "name": "Anchors Viking Fisheries",
+        "phone": "+27 44 691 2570",
+        "website": "http://www.ankerrestaurant.co.za"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1522478,
+          -34.1811657
+        ]
+      },
+      "id": "node/6080136785"
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A889BB21F4C4BF00ECD922 /* geojson in Resources */ = {isa = PBXBuildFile; fileRef = 62A889BA21F4C4BF00ECD922 /* geojson */; };
 		62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279C21F3D18D003085C8 /* AppDelegate.swift */; };
 		62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279E21F3D18D003085C8 /* ViewController.swift */; };
 		62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27A021F3D18D003085C8 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		62BD27B221F3D18F003085C8 /* Kiev_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27B121F3D18F003085C8 /* Kiev_AppTests.swift */; };
 		62BD27BD21F3D18F003085C8 /* Kiev_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27BC21F3D18F003085C8 /* Kiev_AppUITests.swift */; };
 		62BD27CB21F49AA6003085C8 /* Artworck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27CA21F49AA6003085C8 /* Artworck.swift */; };
-		62BD27CD21F49FFE003085C8 /* export.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27CC21F49FFE003085C8 /* export.geojson */; };
 		62BD27CF21F4B508003085C8 /* typePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27CE21F4B508003085C8 /* typePoint.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62A889BA21F4C4BF00ECD922 /* geojson */ = {isa = PBXFileReference; lastKnownFileType = folder; path = geojson; sourceTree = "<group>"; };
 		62BD279921F3D18D003085C8 /* Kiev App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiev App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BD279C21F3D18D003085C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62BD279E21F3D18D003085C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		62BD27BC21F3D18F003085C8 /* Kiev_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiev_AppUITests.swift; sourceTree = "<group>"; };
 		62BD27BE21F3D18F003085C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BD27CA21F49AA6003085C8 /* Artworck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artworck.swift; sourceTree = "<group>"; };
-		62BD27CC21F49FFE003085C8 /* export.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = export.geojson; sourceTree = "<group>"; };
 		62BD27CE21F4B508003085C8 /* typePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typePoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,8 +110,8 @@
 				62BD27A321F3D18E003085C8 /* Assets.xcassets */,
 				62BD27A521F3D18E003085C8 /* LaunchScreen.storyboard */,
 				62BD27A821F3D18E003085C8 /* Info.plist */,
-				62BD27CC21F49FFE003085C8 /* export.geojson */,
 				62BD27CE21F4B508003085C8 /* typePoint.swift */,
+				62A889BA21F4C4BF00ECD922 /* geojson */,
 			);
 			path = "Kiev App";
 			sourceTree = "<group>";
@@ -238,10 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A889BB21F4C4BF00ECD922 /* geojson in Resources */,
 				62BD27A721F3D18E003085C8 /* LaunchScreen.storyboard in Resources */,
 				62BD27A421F3D18E003085C8 /* Assets.xcassets in Resources */,
 				62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */,
-				62BD27CD21F49FFE003085C8 /* export.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

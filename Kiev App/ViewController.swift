@@ -16,10 +16,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         setMapForView = self.mapForView()
-        setMapForView?.region.center = CLLocationCoordinate2D(latitude: 12.4796055, longitude: 41.8946273)
-        centerMapOnLocation(location:CLLocation(latitude: 12.4921738, longitude: 41.869954))
+        setMapForView?.region.center = CLLocationCoordinate2D(latitude: 22.1583525, longitude: -34.1857742)
+        centerMapOnLocation(location:CLLocation(latitude: 22.1583525, longitude: 22.1583525))
        //setMapForView?.addAnnotation(Artwork(title: "casa de aiton", coordinate: CLLocationCoordinate2D(latitude: -34.1830700, longitude: 22.1460600)))
-        pleaseWork()
+        let localHotel = pleaseWork(name:"geojson/hotel.export")
+       // let restaurant = pleaseWork(name:"geojson/restaurant.export")
+       // let tourism = pleaseWork(name:"geojson/tourism.export")
+        //addInmap(local::localHotel)
+        //addInmap(point:restaurant)
+        //addInmap(point:tourism)
+
+    }
+    func addInmap(local:Artwork){
+            let point = MKPointAnnotation()
+            point.title = local.title
+            point.coordinate = local.coordinate
+            setMapForView?.addAnnotation(point)
     }
     func centerMapOnLocation(location: CLLocation) {
         let regionRadius: CLLocationDistance = 1000000
@@ -33,19 +45,25 @@ class ViewController: UIViewController {
         self.view = viewMap
         return viewMap
     }
-    func pleaseWork()//->NSDictionary
-    {
-        let urlBar = Bundle.main.url(forResource: "export", withExtension: "geojson")!
+    func pleaseWork(name:String)//->NSDictionary
+    ->[Artwork]{
+        let urlBar = Bundle.main.url(forResource: name, withExtension: "geojson")!
         
         do {
             let jsonData = try Data(contentsOf: urlBar)
-            let result = try JSONDecoder().decode(Collection.self, from: jsonData)
+            var retorno:[Artwork] = []
+            var result = try JSONDecoder().decode(Collection.self, from: jsonData)
             for feature in result.features {
-                setMapForView?.addAnnotation(Artwork(title: "casa de aiton", coordinate: CLLocationCoordinate2D(latitude: feature.geometry.coordinates[0], longitude:feature.geometry.coordinates[1] )))
-                print("lat ", feature.geometry.coordinates)
+               // print(feature.properties.name)
+                addInmap(local: Artwork(title:feature.properties.name, coordinate: CLLocationCoordinate2D(latitude: feature.geometry.coordinates[1], longitude: feature.geometry.coordinates[0])))
+                print(feature.geometry.coordinates[0])
+                print(feature.geometry.coordinates[1])
+
             }
+            return retorno
         } catch { print("Error while parsing: \(error)") }
         //return NSDictionary()
+        return [Artwork]()
     }
 }
 

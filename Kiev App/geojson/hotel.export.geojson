@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-01-20T14:41:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/522478710",
+        "addr:city": "Mossel Bay",
+        "addr:street": "Church Street",
+        "name": "Protea Hotel Mossel Bay",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1428703,
+          -34.1799317
+        ]
+      },
+      "id": "node/522478710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2435850824",
+        "name": "Point Hotel",
+        "operator": "private",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1583525,
+          -34.1857742
+        ]
+      },
+      "id": "node/2435850824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3043831932",
+        "addr:city": "Mossel Bay",
+        "addr:housenumber": "113",
+        "addr:postcode": "6500",
+        "addr:street": "Marsh Street",
+        "email": "aquamarine.gh@gmail.com",
+        "fax": "+27 86 603 7078",
+        "internet_access": "wlan",
+        "name": "Aquamarine Guest House",
+        "phone": "+27 76 882 0003",
+        "smoking": "no",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "http://www.aquamarineguesthouse.co.za/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1376953,
+          -34.1820509
+        ]
+      },
+      "id": "node/3043831932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607624396",
+        "name": "Munro Manor Guest House",
+        "name:en": "Munro Manor Guest House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1385348,
+          -34.1805007
+        ]
+      },
+      "id": "node/4607624396"
+    }
+  ]
+}
