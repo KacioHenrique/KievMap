@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		62A889BB21F4C4BF00ECD922 /* geojson in Resources */ = {isa = PBXBuildFile; fileRef = 62A889BA21F4C4BF00ECD922 /* geojson */; };
+		62A889BD21F4DABE00ECD922 /* screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A889BC21F4DABE00ECD922 /* screen.swift */; };
+		62A889C121F4DDAA00ECD922 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A889C021F4DDAA00ECD922 /* MyController.swift */; };
 		62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279C21F3D18D003085C8 /* AppDelegate.swift */; };
 		62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279E21F3D18D003085C8 /* ViewController.swift */; };
 		62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27A021F3D18D003085C8 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		62A889BA21F4C4BF00ECD922 /* geojson */ = {isa = PBXFileReference; lastKnownFileType = folder; path = geojson; sourceTree = "<group>"; };
+		62A889BC21F4DABE00ECD922 /* screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen.swift; sourceTree = "<group>"; };
+		62A889C021F4DDAA00ECD922 /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
 		62BD279921F3D18D003085C8 /* Kiev App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiev App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BD279C21F3D18D003085C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62BD279E21F3D18D003085C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				62BD27A821F3D18E003085C8 /* Info.plist */,
 				62BD27CE21F4B508003085C8 /* typePoint.swift */,
 				62A889BA21F4C4BF00ECD922 /* geojson */,
+				62A889BC21F4DABE00ECD922 /* screen.swift */,
+				62A889C021F4DDAA00ECD922 /* MyController.swift */,
 			);
 			path = "Kiev App";
 			sourceTree = "<group>";
@@ -266,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A889C121F4DDAA00ECD922 /* MyController.swift in Sources */,
 				62BD27CB21F49AA6003085C8 /* Artworck.swift in Sources */,
+				62A889BD21F4DABE00ECD922 /* screen.swift in Sources */,
 				62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */,
 				62BD27CF21F4B508003085C8 /* typePoint.swift in Sources */,
 				62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */,

@@ -10,21 +10,15 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController {
-    var setMapForView :MKMapView?
-    
+    @IBOutlet var setMapForView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        setMapForView = self.mapForView()
+        //setMapForView = self.mapForView()
         setMapForView?.region.center = CLLocationCoordinate2D(latitude: 22.1583525, longitude: -34.1857742)
         centerMapOnLocation(location:CLLocation(latitude: 22.1583525, longitude: 22.1583525))
-       //setMapForView?.addAnnotation(Artwork(title: "casa de aiton", coordinate: CLLocationCoordinate2D(latitude: -34.1830700, longitude: 22.1460600)))
         let localHotel = pleaseWork(name:"geojson/hotel.export")
-       // let restaurant = pleaseWork(name:"geojson/restaurant.export")
-       // let tourism = pleaseWork(name:"geojson/tourism.export")
-        //addInmap(local::localHotel)
-        //addInmap(point:restaurant)
-        //addInmap(point:tourism)
+        //mapForView()
 
     }
     func addInmap(local:Artwork){
@@ -40,8 +34,8 @@ class ViewController: UIViewController {
     }
     
     
-    func mapForView() -> MKMapView{
-        let viewMap = MKMapView()
+    func mapForView() -> MyView{
+        let viewMap = MyView()
         self.view = viewMap
         return viewMap
     }
@@ -62,7 +56,6 @@ class ViewController: UIViewController {
             }
             return retorno
         } catch { print("Error while parsing: \(error)") }
-        //return NSDictionary()
         return [Artwork]()
     }
 }
