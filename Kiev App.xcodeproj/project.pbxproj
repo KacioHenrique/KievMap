@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279C21F3D18D003085C8 /* AppDelegate.swift */; };
+		62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD279E21F3D18D003085C8 /* ViewController.swift */; };
+		62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27A021F3D18D003085C8 /* Main.storyboard */; };
+		62BD27A421F3D18E003085C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27A321F3D18E003085C8 /* Assets.xcassets */; };
+		62BD27A721F3D18E003085C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27A521F3D18E003085C8 /* LaunchScreen.storyboard */; };
+		62BD27B221F3D18F003085C8 /* Kiev_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27B121F3D18F003085C8 /* Kiev_AppTests.swift */; };
+		62BD27BD21F3D18F003085C8 /* Kiev_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27BC21F3D18F003085C8 /* Kiev_AppUITests.swift */; };
+		62BD27CB21F49AA6003085C8 /* Artworck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27CA21F49AA6003085C8 /* Artworck.swift */; };
+		62BD27CD21F49FFE003085C8 /* export.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 62BD27CC21F49FFE003085C8 /* export.geojson */; };
+		62BD27CF21F4B508003085C8 /* typePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD27CE21F4B508003085C8 /* typePoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BD27AE21F3D18F003085C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BD279121F3D18D003085C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BD279821F3D18D003085C8;
+			remoteInfo = "Kiev App";
+		};
+		62BD27B921F3D18F003085C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BD279121F3D18D003085C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BD279821F3D18D003085C8;
+			remoteInfo = "Kiev App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62BD279921F3D18D003085C8 /* Kiev App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiev App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BD279C21F3D18D003085C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62BD279E21F3D18D003085C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62BD27A121F3D18D003085C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62BD27A321F3D18E003085C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BD27A621F3D18E003085C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62BD27A821F3D18E003085C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BD27AD21F3D18F003085C8 /* Kiev AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kiev AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BD27B121F3D18F003085C8 /* Kiev_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiev_AppTests.swift; sourceTree = "<group>"; };
+		62BD27B321F3D18F003085C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BD27B821F3D18F003085C8 /* Kiev AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kiev AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BD27BC21F3D18F003085C8 /* Kiev_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiev_AppUITests.swift; sourceTree = "<group>"; };
+		62BD27BE21F3D18F003085C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BD27CA21F49AA6003085C8 /* Artworck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artworck.swift; sourceTree = "<group>"; };
+		62BD27CC21F49FFE003085C8 /* export.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = export.geojson; sourceTree = "<group>"; };
+		62BD27CE21F4B508003085C8 /* typePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typePoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BD279621F3D18D003085C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27AA21F3D18F003085C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27B521F3D18F003085C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62BD279021F3D18D003085C8 = {
+			isa = PBXGroup;
+			children = (
+				62BD279B21F3D18D003085C8 /* Kiev App */,
+				62BD27B021F3D18F003085C8 /* Kiev AppTests */,
+				62BD27BB21F3D18F003085C8 /* Kiev AppUITests */,
+				62BD279A21F3D18D003085C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BD279A21F3D18D003085C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BD279921F3D18D003085C8 /* Kiev App.app */,
+				62BD27AD21F3D18F003085C8 /* Kiev AppTests.xctest */,
+				62BD27B821F3D18F003085C8 /* Kiev AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BD279B21F3D18D003085C8 /* Kiev App */ = {
+			isa = PBXGroup;
+			children = (
+				62BD279C21F3D18D003085C8 /* AppDelegate.swift */,
+				62BD27CA21F49AA6003085C8 /* Artworck.swift */,
+				62BD279E21F3D18D003085C8 /* ViewController.swift */,
+				62BD27A021F3D18D003085C8 /* Main.storyboard */,
+				62BD27A321F3D18E003085C8 /* Assets.xcassets */,
+				62BD27A521F3D18E003085C8 /* LaunchScreen.storyboard */,
+				62BD27A821F3D18E003085C8 /* Info.plist */,
+				62BD27CC21F49FFE003085C8 /* export.geojson */,
+				62BD27CE21F4B508003085C8 /* typePoint.swift */,
+			);
+			path = "Kiev App";
+			sourceTree = "<group>";
+		};
+		62BD27B021F3D18F003085C8 /* Kiev AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BD27B121F3D18F003085C8 /* Kiev_AppTests.swift */,
+				62BD27B321F3D18F003085C8 /* Info.plist */,
+			);
+			path = "Kiev AppTests";
+			sourceTree = "<group>";
+		};
+		62BD27BB21F3D18F003085C8 /* Kiev AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62BD27BC21F3D18F003085C8 /* Kiev_AppUITests.swift */,
+				62BD27BE21F3D18F003085C8 /* Info.plist */,
+			);
+			path = "Kiev AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BD279821F3D18D003085C8 /* Kiev App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BD27C121F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev App" */;
+			buildPhases = (
+				62BD279521F3D18D003085C8 /* Sources */,
+				62BD279621F3D18D003085C8 /* Frameworks */,
+				62BD279721F3D18D003085C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kiev App";
+			productName = "Kiev App";
+			productReference = 62BD279921F3D18D003085C8 /* Kiev App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BD27AC21F3D18F003085C8 /* Kiev AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BD27C421F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev AppTests" */;
+			buildPhases = (
+				62BD27A921F3D18F003085C8 /* Sources */,
+				62BD27AA21F3D18F003085C8 /* Frameworks */,
+				62BD27AB21F3D18F003085C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BD27AF21F3D18F003085C8 /* PBXTargetDependency */,
+			);
+			name = "Kiev AppTests";
+			productName = "Kiev AppTests";
+			productReference = 62BD27AD21F3D18F003085C8 /* Kiev AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62BD27B721F3D18F003085C8 /* Kiev AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BD27C721F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev AppUITests" */;
+			buildPhases = (
+				62BD27B421F3D18F003085C8 /* Sources */,
+				62BD27B521F3D18F003085C8 /* Frameworks */,
+				62BD27B621F3D18F003085C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BD27BA21F3D18F003085C8 /* PBXTargetDependency */,
+			);
+			name = "Kiev AppUITests";
+			productName = "Kiev AppUITests";
+			productReference = 62BD27B821F3D18F003085C8 /* Kiev AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BD279121F3D18D003085C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "kacio henrique couto batista";
+				TargetAttributes = {
+					62BD279821F3D18D003085C8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					62BD27AC21F3D18F003085C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 62BD279821F3D18D003085C8;
+					};
+					62BD27B721F3D18F003085C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 62BD279821F3D18D003085C8;
+					};
+				};
+			};
+			buildConfigurationList = 62BD279421F3D18D003085C8 /* Build configuration list for PBXProject "Kiev App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62BD279021F3D18D003085C8;
+			productRefGroup = 62BD279A21F3D18D003085C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BD279821F3D18D003085C8 /* Kiev App */,
+				62BD27AC21F3D18F003085C8 /* Kiev AppTests */,
+				62BD27B721F3D18F003085C8 /* Kiev AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62BD279721F3D18D003085C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD27A721F3D18E003085C8 /* LaunchScreen.storyboard in Resources */,
+				62BD27A421F3D18E003085C8 /* Assets.xcassets in Resources */,
+				62BD27A221F3D18D003085C8 /* Main.storyboard in Resources */,
+				62BD27CD21F49FFE003085C8 /* export.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27AB21F3D18F003085C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27B621F3D18F003085C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BD279521F3D18D003085C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD27CB21F49AA6003085C8 /* Artworck.swift in Sources */,
+				62BD279F21F3D18D003085C8 /* ViewController.swift in Sources */,
+				62BD27CF21F4B508003085C8 /* typePoint.swift in Sources */,
+				62BD279D21F3D18D003085C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27A921F3D18F003085C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD27B221F3D18F003085C8 /* Kiev_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BD27B421F3D18F003085C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD27BD21F3D18F003085C8 /* Kiev_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BD27AF21F3D18F003085C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BD279821F3D18D003085C8 /* Kiev App */;
+			targetProxy = 62BD27AE21F3D18F003085C8 /* PBXContainerItemProxy */;
+		};
+		62BD27BA21F3D18F003085C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BD279821F3D18D003085C8 /* Kiev App */;
+			targetProxy = 62BD27B921F3D18F003085C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62BD27A021F3D18D003085C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BD27A121F3D18D003085C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BD27A521F3D18E003085C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BD27A621F3D18E003085C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62BD27BF21F3D18F003085C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62BD27C021F3D18F003085C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BD27C221F3D18F003085C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62BD27C321F3D18F003085C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62BD27C521F3D18F003085C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiev App.app/Kiev App";
+			};
+			name = Debug;
+		};
+		62BD27C621F3D18F003085C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiev App.app/Kiev App";
+			};
+			name = Release;
+		};
+		62BD27C821F3D18F003085C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kiev App";
+			};
+			name = Debug;
+		};
+		62BD27C921F3D18F003085C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CRRG28V2;
+				INFOPLIST_FILE = "Kiev AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kacio.Kiev-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kiev App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BD279421F3D18D003085C8 /* Build configuration list for PBXProject "Kiev App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BD27BF21F3D18F003085C8 /* Debug */,
+				62BD27C021F3D18F003085C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BD27C121F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BD27C221F3D18F003085C8 /* Debug */,
+				62BD27C321F3D18F003085C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BD27C421F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BD27C521F3D18F003085C8 /* Debug */,
+				62BD27C621F3D18F003085C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BD27C721F3D18F003085C8 /* Build configuration list for PBXNativeTarget "Kiev AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BD27C821F3D18F003085C8 /* Debug */,
+				62BD27C921F3D18F003085C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BD279121F3D18D003085C8 /* Project object */;
+}
