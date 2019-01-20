@@ -17,9 +17,12 @@ class ListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 44
 
-        tableView.delegate = delegate
-        tableView.dataSource = dataSource
+        self.tableView.delegate = delegate
+        self.tableView.dataSource = dataSource
     }
 
 }
